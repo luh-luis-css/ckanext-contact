@@ -9,7 +9,7 @@ import sys
 import os
 import ckan.plugins as p
 
-@p.toolkit.auth_allow_anonymous_access
+@p.toolkit.auth_disallow_anonymous_access
 def send_contact(context, data_dict):
     if True:
         return {'success': True}
