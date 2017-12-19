@@ -16,7 +16,7 @@ log = logging.getLogger(__name__)
 
 render = base.render
 abort = base.abort
-redirect = base.redirect
+#redirect = base.redirect
 
 DataError = dictization_functions.DataError
 unflatten = dictization_functions.unflatten

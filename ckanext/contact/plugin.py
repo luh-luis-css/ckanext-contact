@@ -5,16 +5,18 @@ import os
 from logging import getLogger
 import ckan.plugins as p
 from ckanext.contact.auth import send_contact
+from ckan.lib.plugins import DefaultTranslation
 
 log = getLogger(__name__)
 
-class ContactPlugin(p.SingletonPlugin):
+class ContactPlugin(p.SingletonPlugin, DefaultTranslation):
     """
     CKAN Contact Extension
     """
     p.implements(p.IRoutes, inherit=True)
     p.implements(p.IConfigurer)
     p.implements(p.IAuthFunctions)
+    p.implements(p.ITranslation)
 
     ## IConfigurer
     def update_config(self, config):
