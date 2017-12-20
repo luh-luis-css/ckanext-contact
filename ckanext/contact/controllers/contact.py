@@ -16,6 +16,7 @@ log = logging.getLogger(__name__)
 
 render = base.render
 abort = base.abort
+# fix for ckan 2.7.2 method redirect does not exists in ckan.lib.base
 #redirect = base.redirect
 
 DataError = dictization_functions.DataError
