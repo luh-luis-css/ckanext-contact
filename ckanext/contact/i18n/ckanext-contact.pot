@@ -1,0 +1,103 @@
+# Translations template for ckanext-contact.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the ckanext-contact
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ckanext-contact 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-12-19 11:27+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: ckanext/contact/controllers/contact.py:41
+msgid "Not authorized to use contact form"
+msgstr ""
+
+#: ckanext/contact/controllers/contact.py:52
+msgid "Not authorized to see this page"
+msgstr ""
+
+#: ckanext/contact/controllers/contact.py:54
+msgid "Bad Captcha. Please try again."
+msgstr ""
+
+#: ckanext/contact/controllers/contact.py:91
+msgid "Sorry, there was an error sending the email. Please try again later"
+msgstr ""
+
+#: ckanext/contact/theme/public/scripts/modules/modal-contact.js:18
+#: ckanext/contact/theme/public/scripts/modules/modal-contact.js:19
+msgid "Sorry, we could not load the contact form. Please try again later."
+msgstr ""
+
+#: ckanext/contact/theme/public/scripts/modules/modal-contact.js:20
+msgid ""
+"Thank you for contacting us, and we will try and reply as soon as "
+"possible.<br />Unfortunately due to the number of enquiries the Museum "
+"receives, we cannot always reply in person to every one."
+msgstr ""
+
+#: ckanext/contact/theme/public/scripts/modules/modal-contact.js:21
+msgid "Sorry, there was an error sending the email. Please try again later."
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/form.html:5
+#: ckanext/contact/theme/templates/contact/snippets/modal_link.html:3
+#: ckanext/contact/theme/templates/contact/snippets/modal_link.html:4
+#: ckanext/contact/theme/templates/header.html:5
+#: ckanext/contact/theme/templates/header.html:9
+msgid "Contact"
+msgstr ""
+
+#: ckanext/contact/theme/templates/ajax_snippets/contact_form.html:18
+msgid "Contact form"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/form.html:12
+#: ckanext/contact/theme/templates/contact/form.html:26
+#: ckanext/contact/theme/templates/contact/success.html:18
+msgid "Contact Us"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/form.html:30
+#: ckanext/contact/theme/templates/contact/success.html:22
+msgid "Questions? Comments? We are always glad to hear from you!"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/success.html:7
+msgid "Thank you!"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/success.html:8
+msgid "Your comment has been sent, we will answer you as soon as possible."
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/snippets/form.html:12
+msgid "Contact Name"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/snippets/form.html:14
+msgid "Email"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/snippets/form.html:16
+msgid "Your Request"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/snippets/form.html:16
+msgid "What do you have to tell us?"
+msgstr ""
+
+#: ckanext/contact/theme/templates/contact/snippets/form.html:28
+msgid "Submit"
+msgstr ""
+

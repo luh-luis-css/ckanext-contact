@@ -4,8 +4,8 @@
 {% block primary_content %}
   <article class="module">
     <div class="module-content">
-      <h1 class="page-heading">Thank you!</h1>
-      <p>Your comment has been sent, we will answer you as soon as possible.</p>
+      <h1 class="page-heading">{{ _('Thank you!') }}</h1>
+      <p>{% trans %}Your comment has been sent, we will answer you as soon as possible.{% endtrans %}</p>
 
     </div>
   </article>
@@ -19,7 +19,7 @@
   </h2>
   <div class="module-content">
     <p>
-      Questions? Comments? We are always glad to hear from you!
+      {% trans %}Questions? Comments? We are always glad to hear from you!{% endtrans %}
     </p>
   </div>
 </div>
