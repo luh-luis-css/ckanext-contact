@@ -10,15 +10,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2017-12-19 11:27+0100\n"
 "PO-Revision-Date: 2017-12-19 11:33+0100\n"
+"Last-Translator: \n"
 "Language: de\n"
 "Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.3.4\n"
-"Last-Translator: \n"
-"X-Generator: Poedit 1.8.7.1\n"
+"Generated-By: Babel 2.7.0\n"
 
 #: ckanext/contact/controllers/contact.py:41
 msgid "Not authorized to use contact form"
@@ -26,7 +25,7 @@ msgstr "Sie dürfen das Kontaktformular nicht nutzen"
 
 #: ckanext/contact/controllers/contact.py:52
 msgid "Not authorized to see this page"
-msgstr "Sie dürfen diese Seite nicht aufrufen"
+msgstr ""
 
 #: ckanext/contact/controllers/contact.py:54
 msgid "Bad Captcha. Please try again."
@@ -82,7 +81,7 @@ msgstr "Vielen Dank!"
 #: ckanext/contact/theme/templates/contact/success.html:8
 msgid "Your comment has been sent, we will answer you as soon as possible."
 msgstr ""
-"Ihre Nachricht würde an uns verschickt. Wir antworten Ihnen so schnell "
+"Ihre Nachricht wurde an uns verschickt. Wir antworten Ihnen so schnell "
 "wie möglich."
 
 #: ckanext/contact/theme/templates/contact/snippets/form.html:12
@@ -104,3 +103,4 @@ msgstr "Was möchten Sie uns schreiben?"
 #: ckanext/contact/theme/templates/contact/snippets/form.html:28
 msgid "Submit"
 msgstr "Abschicken"
+

@@ -40,7 +40,7 @@ class ContactController(base.BaseController):
             self.context = {'model': model, 'session': model.Session, 'user': base.c.user or base.c.author, 'auth_user_obj': base.c.userobj}
             check_access('send_contact', self.context)
         except logic.NotAuthorized:
-            base.abort(401, _('Not authorized to use contact form'))
+            base.abort(401, _(u'Not authorized to use contact form'))
 
     @staticmethod
     def _submit(context):
@@ -51,7 +51,7 @@ class ContactController(base.BaseController):
             c.form = data_dict['name']
             captcha.check_recaptcha(request)
         except logic.NotAuthorized:
-            base.abort(401, _('Not authorized to see this page'))
+            base.abort(401, _(u'Not authorized to see this page'))
         except captcha.CaptchaError:
             error_msg = _(u'Bad Captcha. Please try again.')
             h.flash_error(error_msg)
@@ -83,7 +83,7 @@ class ContactController(base.BaseController):
                 'recipient_name': config.get("ckanext.contact.recipient_name", config.get('ckan.site_title')),
                 'subject': config.get("ckanext.contact.subject", 'Contact/Question from visitor'),
                 'body': body,
-                'headers': {'reply-to': data_dict["email"]}
+                'headers': {'Reply-To': data_dict["email"]}
             }
 
             # Allow other plugins to modify the mail_dict
