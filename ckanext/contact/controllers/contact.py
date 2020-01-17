@@ -83,7 +83,7 @@ class ContactController(base.BaseController):
                 'recipient_name': config.get("ckanext.contact.recipient_name", config.get('ckan.site_title')),
                 'subject': config.get("ckanext.contact.subject", 'Contact/Question from visitor'),
                 'body': body,
-                'headers': {'reply-to': data_dict["email"]}
+                'headers': {'Reply-To': data_dict["email"]}
             }
 
             # Allow other plugins to modify the mail_dict
