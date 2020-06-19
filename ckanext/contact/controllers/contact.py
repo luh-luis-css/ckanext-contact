@@ -71,12 +71,13 @@ class ContactController(base.BaseController):
             errors['content'] = [u'Missing Value']
             error_summary['content'] = u'Missing value'
 
+
         if len(errors) == 0:
             # build the body text (user content plus metadata)
             # complete rewrite (using format)
-            body = '{}\n\nSend by:\nName: {}\nEmail: {}\nFrom URL: {}'.format(data_dict["content"],
-                                                                         data_dict["name"],
-                                                                         data_dict["email"],
+            body = u'{}\n\nSend by:\nName: {}\nEmail: {}\nFrom URL: {}'.format(data_dict["content"],
+                                                                        data_dict["name"],
+                                                                        data_dict["email"],
                                                                         '://'.join(h.get_site_protocol_and_host()))
             mail_dict = {
                 'recipient_email': config.get("ckanext.contact.mail_to", config.get('email_to')),
